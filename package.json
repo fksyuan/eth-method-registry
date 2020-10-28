@@ -1,7 +1,7 @@
 {
-  "name": "eth-method-registry",
+  "name": "@fksyuan/eth-method-registry",
   "version": "1.2.0",
-  "description": "A module for getting method signature info from an ethereum method signature.",
+  "description": "A module for getting method signature info from an platon method signature.",
   "main": "index.js",
   "scripts": {
     "lint": "echo 'No lint script'",
@@ -10,7 +10,7 @@
   "author": "Dan Finlay <dan@danfinlay.com>",
   "license": "ISC",
   "dependencies": {
-    "ethjs": "^0.3.0"
+    "@fksyuan/ethjs": "^0.3.0"
   },
   "devDependencies": {
     "babel-runtime": "^6.26.0",
@@ -21,16 +21,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/danfinlay/eth-method-registry.git"
+    "url": "git+ssh://git@github.com/fksyuan/eth-method-registry.git"
   },
   "keywords": [
-    "Ethereum",
+    "PlatON",
     "solidity",
     "4byte",
     "signature"
   ],
   "bugs": {
-    "url": "https://github.com/danfinlay/eth-method-registry/issues"
+    "url": "https://github.com/fksyuan/eth-method-registry/issues"
   },
-  "homepage": "https://github.com/danfinlay/eth-method-registry#readme"
+  "homepage": "https://github.com/fksyuan/eth-method-registry#readme"
 }

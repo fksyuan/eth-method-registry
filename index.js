@@ -1,4 +1,4 @@
-const Eth = require('ethjs')
+const Eth = require('@fksyuan/ethjs')
 const registryMap = require('./registry-map.json')
 const abi = require('./abi')
 
@@ -40,7 +40,7 @@ class MethodRegistry {
     if (match) {
       args = match[1].match(/[A-z1-9]+/g).map((arg) => { return {type: arg}})
     }
-  
+
     return {
       name: parsedName,
       args

@@ -13,8 +13,8 @@ With Node.js Installed:
 ## Usage
 
 ```javascript
-const MethodRegistry = require('eth-method-registry')
-const Eth = require('ethjs')
+const MethodRegistry = require('@fksyuan/eth-method-registry')
+const Eth = require('@fksyuan/ethjs')
 const provider = new Eth.HttpProvider('https://mainnet.infura.io/v3/YOUR-PROJECT-ID')
 const registry = new MethodRegistry({ provider })
 
